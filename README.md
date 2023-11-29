@@ -1,41 +1,18 @@
-# cookin-up
+## Sobre o projeto
 
-This template should help get you started developing with Vue 3 in Vite.
+O projeto Cookin'UP é um projeto da Alura que permite encontrar receitas de acordo com os ingredientes que você tem em casa. Para usar o projeto, você deve primeiro selecionar os ingredientes que deseja utilizar. Para isso, basta clicar nos ingredientes que aparecem na lista. Os ingredientes selecionados serão exibidos na parte superior da página, na seção "Sua lista". Se você quiser remover um ingrediente da lista, basta clicar novamente nele. O ingrediente será desmarcado e removido da lista. Quando você tiver selecionado todos os ingredientes que deseja utilizar, clique no botão "Buscar receitas". O projeto exibirá uma lista de receitas que podem ser feitas com os ingredientes selecionados.
 
-## Recommended IDE Setup
+## Tecnologias utilizadas
+* Vue.JS
+* TypeScript
+* JavaScript
+* HTML
+* CSS
+* 
+## Imagem
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![2afb4496-c617-419a-8d74-552ff6b981b9](https://github.com/MatheusCostaVaz/cookin-up/assets/105075092/90e2fd9f-8a46-4edb-97f0-55040c3e4845)
 
-## Type Support for `.vue` Imports in TS
+![image](https://github.com/MatheusCostaVaz/cookin-up/assets/105075092/ccdce3a7-4915-4e57-a69f-2e115c024c43)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-# cookin-up
